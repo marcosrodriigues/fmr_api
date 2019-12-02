@@ -135,6 +135,14 @@
 			<version>RELEASE</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.google.cloud/google-cloud-storage -->
+		<dependency>
+			<groupId>com.google.cloud</groupId>
+			<artifactId>google-cloud-storage</artifactId>
+			<version>1.101.0</version>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>
