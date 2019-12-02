@@ -12,20 +12,33 @@
 	<artifactId>api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api</name>
+	<packaging>war</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
+		<gcloud.appId>fmr-api-14234341</gcloud.appId>
 		<java.version>1.8</java.version>
-		<jaxb-api.version>2.3.0</jaxb-api.version>
+		<appengine.maven.plugin>2.0.0</appengine.maven.plugin>
+		<jetty.maven.plugin>9.3.7.v20160115</jetty.maven.plugin>
 
-		<maven.compiler.source>1.8</maven.compiler.source>
-		<maven.compiler.target>1.8</maven.compiler.target>
+		<failOnMissingWebXml>false</failOnMissingWebXml>
+		<maven.compiler.source>${java.version}</maven.compiler.source> <!-- REQUIRED -->
+		<maven.compiler.target>${java.version}</maven.compiler.target> <!-- REQUIRED -->
+
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+			<version>RELEASE</version>
+			<!--<exclusions>-->
+				<!--<exclusion>-->
+					<!--<groupId>org.springframework.boot</groupId>-->
+					<!--<artifactId>spring-boot-starter-tomcat</artifactId>-->
+				<!--</exclusion>-->
+			<!--</exclusions>-->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -48,6 +61,18 @@
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
+			<version>8.0.15</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.google.protobuf</groupId>
+					<artifactId>protobuf-java</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>com.google.cloud.sql</groupId>
+			<artifactId>mysql-socket-factory-connector-j-8</artifactId>
+			<version>1.0.15</version>
 		</dependency>
 
 		<dependency>
@@ -61,54 +86,122 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- JAXB 2.3.0 for jdk9+ -->
+		<!--&lt;!&ndash; JAXB 2.3.0 for jdk9+ &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>javax.xml.bind</groupId>-->
+			<!--<artifactId>jaxb-api</artifactId>-->
+			<!--<version>2.3.0</version>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.glassfish.jaxb</groupId>-->
+			<!--<artifactId>jaxb-runtime</artifactId>-->
+			<!--<version>2.3.0</version>-->
+		<!--</dependency>-->
+		<!--&lt;!&ndash; JAXB needs javax.activation module (jdk9) &ndash;&gt;-->
+		<!--<dependency>-->
+			<!--<groupId>javax.activation</groupId>-->
+			<!--<artifactId>javax.activation-api</artifactId>-->
+			<!--<version>1.2.0</version>-->
+		<!--</dependency>-->
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- Exclude any jul-to-slf4j -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jul-to-slf4j</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>5.4.0.Final</version>
+		</dependency>
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
 			<artifactId>jaxb-api</artifactId>
 			<version>2.3.0</version>
 		</dependency>
+
 		<dependency>
-			<groupId>org.glassfish.jaxb</groupId>
-			<artifactId>jaxb-runtime</artifactId>
-			<version>2.3.0</version>
-		</dependency>
-		<!-- JAXB needs javax.activation module (jdk9) -->
-		<dependency>
-			<groupId>javax.activation</groupId>
-			<artifactId>javax.activation-api</artifactId>
-			<version>1.2.0</version>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-gcp-starter-sql-mysql</artifactId>
+			<version>RELEASE</version>
 		</dependency>
 
-		<!-- Google Cloud -->
-		<dependency>
-			<groupId>com.google.appengine</groupId>
-			<artifactId>appengine-api-1.0-sdk</artifactId>
-			<version>1.9.77</version>
-		</dependency>
 	</dependencies>
 
 	<build>
+		<outputDirectory>${project.build.directory}/${project.build.finalName}/WEB-INF/classes</outputDirectory>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-
-			<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.6.1</version>
+			<!--<plugin>-->
+				<!--<groupId>org.springframework.boot</groupId>-->
+				<!--<artifactId>spring-boot-maven-plugin</artifactId>-->
+			<!--</plugin>-->
+			<!--&lt;!&ndash;<plugin>&ndash;&gt;-->
+				<!--&lt;!&ndash;<groupId>com.google.cloud.tools</groupId>&ndash;&gt;-->
+				<!--&lt;!&ndash;<artifactId>appengine-maven-plugin</artifactId>&ndash;&gt;-->
+				<!--&lt;!&ndash;<version>2.1.0</version>&ndash;&gt;-->
+				<!--&lt;!&ndash;<configuration>&ndash;&gt;-->
+					<!--&lt;!&ndash;<deploy.stopPreviousVersion>true</deploy.stopPreviousVersion>&ndash;&gt;-->
+					<!--&lt;!&ndash;<cloudSdkPath>/usr/lib/google-cloud-sdk</cloudSdkPath>&ndash;&gt;-->
+					<!--&lt;!&ndash;<deploy.projectId>GCLOUD_CONFIG</deploy.projectId>&ndash;&gt;-->
+					<!--&lt;!&ndash;<deploy.version>GCLOUD_CONFIG</deploy.version>&ndash;&gt;-->
+				<!--&lt;!&ndash;</configuration>&ndash;&gt;-->
+			<!--&lt;!&ndash;</plugin>&ndash;&gt;-->
+			<!--<plugin>-->
+				<!--<artifactId>maven-compiler-plugin</artifactId>-->
+				<!--<version>3.6.0</version>-->
+				<!--<configuration>-->
+					<!--<source>1.8</source>-->
+					<!--<target>1.8</target>-->
+				<!--</configuration>-->
+			<!--</plugin>-->
+			<!--<plugin>-->
+				<!--<groupId>com.google.cloud.tools</groupId>-->
+				<!--<artifactId>appengine-maven-plugin</artifactId>-->
+				<!--<version>${appengine.maven.plugin}</version>-->
+				<!--<configuration>-->
+					<!--<deploy.projectId>fmr-api-1424341</deploy.projectId>-->
+					<!--<deploy.version>GCLOUD_CONFIG</deploy.version>-->
+					<!--<environment>-->
+						<!--<name>spring.profiles.active</name>-->
+						<!--<value>QA</value>-->
+					<!--</environment>-->
+				<!--</configuration>-->
+			<!--</plugin>-->
+			<plugin>                          <!-- Used for local debugging -->
+				<groupId>org.eclipse.jetty</groupId>
+				<artifactId>jetty-maven-plugin</artifactId>
+				<version>${jetty.maven.plugin}</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
+					<webApp>
+						<overrideDescriptor>${project.build.directory}/${project.build.finalName}/WEB-INF/web.xml</overrideDescriptor>
+					</webApp>
 				</configuration>
 			</plugin>
 
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>appengine-maven-plugin</artifactId>
-				<version>2.2.0</version>
+				<version>${appengine.maven.plugin}</version>
+				<configuration>
+					<deploy.projectId>fmr-api-14234341</deploy.projectId>
+					<deploy.version>GCLOUD_CONFIG</deploy.version>
+					<environment>
+						<name>spring.profiles.active</name>
+						<value>QA</value>
+					</environment>
+				</configuration>
 			</plugin>
 		</plugins>
+
 	</build>
 
 </project>
