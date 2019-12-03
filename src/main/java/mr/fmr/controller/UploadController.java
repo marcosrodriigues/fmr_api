@@ -39,7 +39,7 @@ public class UploadController {
         UploadFile uploadFile = new UploadFile(filename, fileUri, file.getContentType(), file.getSize());
 
         User user = userService.getUserFromPrincipal(principal);
-        user.setFotoUrl(uploadFile.getFileUri());
+        user.setFotoUrl(uploadFile.getFilename());
         userService.save(user);
 
         return uploadFile;

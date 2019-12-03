@@ -2,7 +2,6 @@ package mr.fmr.service.impl;
 
 import mr.fmr.model.*;
 import mr.fmr.repository.RepublicaRepository;
-import mr.fmr.service.EstudanteService;
 import mr.fmr.service.RepublicaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
@@ -16,14 +15,9 @@ public class RepublicaServiceImpl implements RepublicaService {
 
     @Autowired
     private RepublicaRepository repository;
-    @Autowired
-    private EstudanteService estudanteService;
 
     @Autowired
     private PasswordEncoder passwordEncoder;
-
-    private final int _CINCO= 5;
-    private final int _QUATRO = 4;
 
     @Override
     public Republica save(User user) {

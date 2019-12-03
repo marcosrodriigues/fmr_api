@@ -9,6 +9,8 @@ import mr.fmr.service.MoradorRepublicaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
+
 @Service
 public class MoradorRepublicaServiceImpl implements MoradorRepublicaService {
 
@@ -38,10 +40,17 @@ public class MoradorRepublicaServiceImpl implements MoradorRepublicaService {
         MoradorRepublica moradorRepublica = repository.findById(new MoradorRepublicaId(estudante.getId(), republica.getId())).get();
 
         if (moradorRepublica != null) {
-            repository.delete(moradorRepublica);
-            return;
+            moradorRepublica.setAprovado(false);
+            repository.save(moradorRepublica);
         }
+    }
 
-        return;
+    @Transactional
+    @Override
+    public void remover(Estudante estudante, Republica republica) {
+        MoradorRepublica moradorRepublica = repository.findById(new MoradorRepublicaId(estudante.getId(), republica.getId())).get();
+
+        if (moradorRepublica != null)
+            repository.deleteById(moradorRepublica.getId());
     }
 }

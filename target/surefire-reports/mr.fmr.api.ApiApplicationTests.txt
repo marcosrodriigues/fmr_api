@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: mr.fmr.api.ApiApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.022 s - in mr.fmr.api.ApiApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.757 s - in mr.fmr.api.ApiApplicationTests

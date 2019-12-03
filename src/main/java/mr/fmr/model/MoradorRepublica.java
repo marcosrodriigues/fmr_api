@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.Objects;
 
 @Entity
 public class MoradorRepublica {
@@ -82,5 +83,18 @@ public class MoradorRepublica {
 
     public void setAprovado(boolean aprovado) {
         this.aprovado = aprovado;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof MoradorRepublica)) return false;
+        MoradorRepublica that = (MoradorRepublica) o;
+        return getId().equals(that.getId());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getId());
     }
 }

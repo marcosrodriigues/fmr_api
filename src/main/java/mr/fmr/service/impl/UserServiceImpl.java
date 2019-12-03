@@ -1,5 +1,6 @@
 package mr.fmr.service.impl;
 
+import mr.fmr.exception.MyUnauthorizedException;
 import mr.fmr.model.User;
 import mr.fmr.repository.UserRepository;
 import mr.fmr.service.EstudanteService;
@@ -103,10 +104,10 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 
     @Override
     public User getUserFromPrincipal(Principal principal) {
-        if (principal == null) {
-            return new User();
-        }
+        if (principal == null) throw new MyUnauthorizedException("Principal user not found!");
+
         User user = repository.findByUsername(principal.getName());
+
         return user;
     }
 

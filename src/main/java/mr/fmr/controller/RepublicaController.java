@@ -134,9 +134,12 @@ public class RepublicaController {
         return null;
     }
 
-    @PostMapping(value = BASE_URL + "/recusar")
-    public void recusar(Principal principal, @RequestBody Estudante estudante) {
+    @PostMapping(value = BASE_URL + "/recusar/{id}")
+    public void recusar(Principal principal, @PathVariable("id") Long id) {
         User user = userService.getUserFromPrincipal(principal);
+        Estudante estudante = (Estudante) userService.findOne(id);
+
+        if (estudante == null) throw new MyBadRequestException("Estudante não encontrado");
 
         if (user instanceof  Republica) {
             Republica me = (Republica) user;
@@ -144,6 +147,21 @@ public class RepublicaController {
         } else if (user instanceof Estudante) {
             Estudante me = (Estudante) user;
             moradorService.recusar(estudante, me.getMoradorRepublica().getRepublica());
+        }
+    }
+
+    @PostMapping(value = BASE_URL + "/remover/{id}")
+    public void remover(Principal principal, @PathVariable("id") Long id) {
+        User user = userService.getUserFromPrincipal(principal);
+
+        Estudante estudante = (Estudante) userService.findOne(id);
+
+        if (user instanceof  Republica) {
+            Republica me = (Republica) user;
+            moradorService.remover(estudante, me);
+        } else if (user instanceof Estudante) {
+            Estudante me = (Estudante) user;
+            moradorService.remover(estudante, me.getMoradorRepublica().getRepublica());
         }
     }
 

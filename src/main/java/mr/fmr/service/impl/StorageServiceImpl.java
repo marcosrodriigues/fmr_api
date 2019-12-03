@@ -1,5 +1,6 @@
 package mr.fmr.service.impl;
 
+import com.google.auth.oauth2.GoogleCredentials;
 import com.google.cloud.storage.Acl;
 import com.google.cloud.storage.BlobInfo;
 import com.google.cloud.storage.Storage;
@@ -9,7 +10,7 @@ import org.springframework.core.io.Resource;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.ByteArrayOutputStream;
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -24,11 +25,21 @@ public class StorageServiceImpl implements StorageService {
 
     //private Path fileStorageLocation;
 
-    private static Storage storage = null;
-    private final String BUCKET_NAME = "frm_api";
+    private static Storage storage;
+    private final String BUCKET_NAME = "fmr-api-14234341.appspot.com";
 
     static {
-        storage = StorageOptions.getDefaultInstance().getService();
+        try {
+//            InputStream in = getClass.getResourceAsStream("/keys-gcp.json");
+
+  //          GoogleCredentials cred = GoogleCredentials.fromStream(in);
+
+    //        storage = StorageOptions.newBuilder().setCredentials(cred).build().getService();
+            storage = StorageOptions.getDefaultInstance().getService();
+            System.out.println(storage.getOptions().getCredentials());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
 //    @Autowired
@@ -46,24 +57,15 @@ public class StorageServiceImpl implements StorageService {
 
     @Override
     public String store(MultipartFile file) {
-        Date d = new Date();
-        final String fileName = file.getOriginalFilename() + d.getTime();
-
+        final String fileName = createFileName(file);
         try {
             InputStream in = file.getInputStream();
-            ByteArrayOutputStream os = new ByteArrayOutputStream();
-
-            byte[] readBuf = new byte[4096];
-            while(in.available() > 0) {
-                int bytesRead = in.read(readBuf);
-                os.write(readBuf, 0, bytesRead);
-            }
             BlobInfo info =
                     storage.create(
                             BlobInfo
                             .newBuilder(BUCKET_NAME , fileName)
                             .setAcl(new ArrayList<>(Arrays.asList(Acl.of(Acl.User.ofAllUsers(), Acl.Role.READER))))
-                            .build());
+                            .build(), in);
 
             return info.getMediaLink();
 
@@ -125,4 +127,18 @@ public class StorageServiceImpl implements StorageService {
 //        }
         return null;
     }
+
+    private String createFileName(MultipartFile file) {
+        String[] parts = file.getOriginalFilename().split("\\.");
+        String ext = parts[parts.length - 1];
+        Date d = new Date();
+        String name = parts[0];
+        for (int i = 1; i < parts.length; i++) {
+            if ((i+1) == parts.length) name = name.concat("_" + d.getTime());
+            else name = name.concat("_" + parts[i]);
+        }
+        name = name.concat("." + ext);
+        return name;
+    }
 }
+
