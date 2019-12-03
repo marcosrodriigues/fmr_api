@@ -8,46 +8,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f6e43534-236d-4c79-8e92-009cb700bf45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/config/CORSConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/config/CORSConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/UploadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/UploadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/model/MoradorRepublica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/model/MoradorRepublica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/repository/MoradorRepublicaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/repository/MoradorRepublicaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/MoradorRepublicaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/MoradorRepublicaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/MoradorRepublicaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/MoradorRepublicaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/RepublicaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/RepublicaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/StorageServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/StorageServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/keys-gcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/keys-gcp.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/keys-gcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/keys-gcp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/ApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/config/CORSConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/config/CORSConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/model/MoradorRepublica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/model/MoradorRepublica.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/model/MoradorRepublicaId.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/model/MoradorRepublicaId.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/repository/MoradorRepublicaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/repository/MoradorRepublicaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/MoradorRepublicaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/MoradorRepublicaService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/MoradorRepublicaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/MoradorRepublicaServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/RepublicaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/RepublicaServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/StorageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/StorageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/keys-gcp.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/keys-gcp.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/ApiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/ApiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/CORSConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/CORSConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UploadController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UploadController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/StorageServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/StorageServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/MoradorRepublica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/MoradorRepublica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/MoradorRepublicaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/MoradorRepublicaRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/MoradorRepublicaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/MoradorRepublicaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/MoradorRepublicaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/MoradorRepublicaServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/RepublicaServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/RepublicaServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/source-context.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/source-context.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-12-02T02-21-03_268.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-12-02T20-17-43_542.dumpstream" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-mr.fmr.api.ApiApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-mr.fmr.api.ApiApplicationTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/mr.fmr.api.ApiApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/mr.fmr.api.ApiApplicationTests.txt" afterDir="false" />
     </list>
@@ -64,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/MoradorRepublicaServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="142">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
             </state>
           </provider>
         </entry>
@@ -73,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/repository/MoradorRepublicaRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+              <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -352,16 +325,15 @@
       <workItem from="1575309555508" duration="15619000" />
       <workItem from="1575382152476" duration="407000" />
       <workItem from="1575386566050" duration="3753000" />
-      <workItem from="1575392451644" duration="7795000" />
+      <workItem from="1575392451644" duration="10854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77457000" />
+    <option name="totallyTimeSpent" value="80516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.275" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -375,12 +347,12 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32901135" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3987034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987034" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -645,14 +617,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/MoradorRepublicaServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/repository/MoradorRepublicaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="14" column="43" lean-forward="true" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
         </state>
       </provider>
     </entry>
