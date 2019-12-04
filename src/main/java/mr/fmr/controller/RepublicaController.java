@@ -195,7 +195,7 @@ public class RepublicaController {
             if ("TODOS".equalsIgnoreCase(carater) || (r.getCarater() != null && r.getCarater().name().equalsIgnoreCase(carater))) {
                 payload = new RepublicaPorPersonalidadePayload(r);
 
-                if (r.getPerfil() == null || me.getPerfil() == null) {
+                if (r.getPerfil().getPersonalidade() == null || me.getPerfil().getPersonalidade() == null) {
                     sumPersonality = 0;
                     distanciaGeral = 0;
                 } else {
