@@ -104,7 +104,7 @@ public class UserServiceImpl implements UserDetailsService, UserService {
 
     @Override
     public User getUserFromPrincipal(Principal principal) {
-        if (principal == null) throw new MyUnauthorizedException("Principal user not found!");
+        if (principal == null) return null;
 
         User user = repository.findByUsername(principal.getName());
 

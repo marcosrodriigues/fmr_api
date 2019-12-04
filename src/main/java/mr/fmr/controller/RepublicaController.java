@@ -3,10 +3,7 @@ package mr.fmr.controller;
 import mr.fmr.CaraterRepublica;
 import mr.fmr.exception.MyBadRequestException;
 import mr.fmr.exception.MyUnauthorizedException;
-import mr.fmr.model.Estudante;
-import mr.fmr.model.MoradorRepublica;
-import mr.fmr.model.Republica;
-import mr.fmr.model.User;
+import mr.fmr.model.*;
 import mr.fmr.payload.RepublicaDetalhes;
 import mr.fmr.payload.RepublicaPorPersonalidadePayload;
 import mr.fmr.service.MoradorRepublicaService;
@@ -185,6 +182,7 @@ public class RepublicaController {
     @GetMapping(value = BASE_URL + "/search/{cidade}/{carater}")
     public List<RepublicaPorPersonalidadePayload> findBySearch(Principal principal, @PathVariable("cidade") String cidade, @PathVariable("carater") String carater) {
         User me = new User();
+        me.setPerfil(new Perfil());
         if (principal != null) me = userService.getUserFromPrincipal(principal);
 
         List<Republica> republicas = service.findByCity(cidade);
