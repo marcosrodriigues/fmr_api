@@ -9,237 +9,13 @@
     <list default="true" id="f6e43534-236d-4c79-8e92-009cb700bf45" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/appengine-generated/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/appengine-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/keys-gcp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/logging.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/ApiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/CaraterRepublica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/AuthorizationServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/CORSConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/CORSFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/ResourceServerConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/ResourceServerConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/config/SecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/EstudanteController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/InteligenciaComputacionalController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/InteligenciaComputacionalController$Payload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/InteligenciaComputacionalController$PerguntaEResposta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/InteligenciaComputacionalController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/InventarioController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/PerguntaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/PersonalidadeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UniversidadeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UploadController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/UtilController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/exception/FileStorageException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/exception/MyBadRequestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/exception/MyFileNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/exception/MyUnauthorizedException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Endereco.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Estudante.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Inventario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/InventarioPerguntaResposta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/MoradorRepublica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/MoradorRepublicaId.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Perfil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Pergunta.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Personalidade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Republica.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/Universidade.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/model/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/payload/ProfilePayload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/payload/RepublicaDetalhes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/payload/RepublicaPorPersonalidadePayload.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/payload/UploadFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/pojo/FileStorageProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/EnderecoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/EstudanteRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/InventarioPerguntaRespostaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/InventarioRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/MoradorRepublicaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/PerfilRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/PerguntaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/PersonalidadeRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/RepublicaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/UniversidadeReposiroty.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/EnderecoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/EstudanteService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/InventarioPerguntaRespostaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/InventarioService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/MoradorRepublicaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/PerfilService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/PerguntaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/PersonalidadeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/RecomendacaoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/RepublicaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/StorageService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/UniversidadeService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/EnderecoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/EstudanteServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/InventarioPerguntaRespostaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/InventarioServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/MoradorRepublicaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/PerfilServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/PerguntaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/PersonalidadeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/RecomendacaoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/RepublicaServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/StorageServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/UniversidadeServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/source-context.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/users.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/FastInfoset-1.2.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/animal-sniffer-annotations-1.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/antlr-2.7.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/api-common-1.8.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/asm-7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/asm-analysis-7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/asm-commons-7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/asm-tree-7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/asm-util-7.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/aspectjweaver-1.9.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/auto-value-annotations-1.6.6.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/bcpkix-jdk15on-1.56.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/bcprov-jdk15on-1.56.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/byte-buddy-1.9.16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/checker-compat-qual-2.5.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/commons-codec-1.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/dom4j-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/error_prone_annotations-2.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/failureaccess-1.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/gax-1.49.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/gax-httpjson-0.66.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-api-client-1.30.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-api-services-sqladmin-v1beta4-rev20190607-1.30.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-api-services-storage-v1-rev20190910-1.30.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-auth-library-credentials-0.18.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-auth-library-oauth2-http-0.17.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-cloud-core-1.91.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-cloud-core-http-1.91.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-cloud-storage-1.101.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-http-client-1.32.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-http-client-appengine-1.32.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-http-client-jackson2-1.31.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/google-oauth-client-1.30.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/grpc-context-1.22.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/gson-2.8.5.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/guava-28.1-android.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/hibernate-commons-annotations-5.1.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/hibernate-core-5.4.0.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/hibernate-validator-6.0.17.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/httpclient-4.5.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/httpcore-4.4.11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/j2objc-annotations-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-core-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-core-asl-1.9.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-databind-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-datatype-jdk8-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-datatype-jsr310-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-mapper-asl-1.9.13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jackson-module-parameter-names-2.9.9.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jandex-2.0.5.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javassist-3.24.0-GA.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javax.activation-api-1.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javax.persistence-api-2.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javax.servlet-api-4.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/javax.transaction-api-1.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jaxb-api-2.3.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jaxb-core-2.3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jaxb-impl-2.3.0.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jaxb-runtime-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jdbc-socket-factory-core-1.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jffi-1.2.19-native.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jffi-1.2.19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-a64asm-1.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-constants-0.9.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-enxio-0.21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-ffi-2.1.10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-posix-3.0.50.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-unixsocket-0.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jnr-x86asm-1.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jsr305-3.0.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/mysql-connector-java-8.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/mysql-socket-factory-1.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/mysql-socket-factory-connector-j-8-1.0.15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/opencensus-api-0.24.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/opencensus-contrib-http-util-0.24.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/proto-google-common-protos-1.17.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/proto-google-iam-v1-0.13.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/protobuf-java-3.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/protobuf-java-util-3.10.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-aspects-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-autoconfigure-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-aop-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-data-jpa-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-jdbc-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-json-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-logging-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-security-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-tomcat-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-validation-2.1.7.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-boot-starter-web-2.2.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-cloud-gcp-autoconfigure-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-cloud-gcp-core-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-cloud-gcp-starter-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-cloud-gcp-starter-sql-mysql-1.2.0.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-data-commons-2.1.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-data-jpa-2.1.10.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-config-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-core-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-jwt-1.0.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-oauth2-2.3.4.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-oauth2-autoconfigure-2.1.1.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-security-web-5.1.6.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/stax-ex-1.8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/threetenbp-1.3.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/tomcat-embed-core-9.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/tomcat-embed-el-9.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/tomcat-embed-websocket-9.0.22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/txw2-2.3.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/min-quickstart-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/quickstart-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/appengine-staging/app.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/api-0.0.1-SNAPSHOT/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/mr/fmr/controller/RepublicaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/source-context.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/appengine-staging/WEB-INF/classes/source-context.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2019-12-03T23-42-18_794.dumpstream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-mr.fmr.api.ApiApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-mr.fmr.api.ApiApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/mr.fmr.api.ApiApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/mr.fmr.api.ApiApplicationTests.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -253,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
+            <state relative-caret-position="315">
               <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
             </state>
           </provider>
@@ -262,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+            <state relative-caret-position="1305">
+              <caret line="109" selection-start-line="109" selection-end-line="109" />
             </state>
           </provider>
         </entry>
@@ -271,8 +47,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="184" column="35" lean-forward="true" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="35" />
+            <state relative-caret-position="170">
+              <caret line="199" column="28" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -343,7 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -393,15 +169,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="fmr" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="api" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fmr_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="fmr" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -432,7 +199,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,12 +303,14 @@
       <workItem from="1575386566050" duration="3753000" />
       <workItem from="1575392451644" duration="11098000" />
       <workItem from="1575412598413" duration="5464000" />
-      <workItem from="1575423506870" duration="220000" />
+      <workItem from="1575423506870" duration="602000" />
+      <workItem from="1575433885171" duration="1044000" />
+      <workItem from="1575936521807" duration="839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86444000" />
+    <option name="totallyTimeSpent" value="88709000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,9 +323,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2840909" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2931818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -573,7 +341,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901135" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32901135" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" visible="true" weight="0.32901135" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49924242" visible="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007576" side_tool="true" weight="0.32901135" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -842,24 +610,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/RecomendacaoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
+        <state relative-caret-position="315">
           <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/service/impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="1305">
+          <caret line="109" selection-start-line="109" selection-end-line="109" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mr/fmr/controller/RepublicaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="184" column="35" lean-forward="true" selection-start-line="184" selection-start-column="35" selection-end-line="184" selection-end-column="35" />
+        <state relative-caret-position="170">
+          <caret line="199" column="28" selection-start-line="199" selection-start-column="28" selection-end-line="199" selection-end-column="28" />
         </state>
       </provider>
     </entry>

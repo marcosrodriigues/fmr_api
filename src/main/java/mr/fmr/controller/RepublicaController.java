@@ -195,11 +195,10 @@ public class RepublicaController {
 
                 if (r.getPerfil().getPersonalidade() == null || me.getPerfil().getPersonalidade() == null) {
                     sumPersonality = 0;
-                    distanciaGeral = 0;
+                    distanciaGeral = 99999;
                 } else {
                     sumPersonality = recomendacaoService.somaPersonalidade(r.getPerfil().getPersonalidade());
                     distanciaGeral = recomendacaoService.calculaDistanciaGeral(me, r);
-
                 }
 
                 payload.setDistanciaGeral(distanciaGeral);
