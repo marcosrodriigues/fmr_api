@@ -12,4 +12,8 @@ public interface EstudanteService {
     List<Estudante> findAll();
     Estudante findOne(long id);
     void delete(long id);
+
+    List<Estudante> findMoradorRepublicIsNull() ;
+    List<Estudante> findMoradorRepublicIsAprovado();
+    List<Estudante> findMoradorRepublicIsPendente() ;
 }

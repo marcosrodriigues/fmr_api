@@ -46,4 +46,19 @@ public class EstudanteServiceImpl implements EstudanteService {
     public void delete(long id) {
         repository.deleteById(id);
     }
+
+    @Override
+    public List<Estudante> findMoradorRepublicIsNull() {
+        return repository.findByMoradorRepublicaIsNull();
+    }
+
+    @Override
+    public List<Estudante> findMoradorRepublicIsAprovado() {
+        return repository.findAllByMoradorRepublica_Aprovado(true);
+    }
+
+    @Override
+    public List<Estudante> findMoradorRepublicIsPendente() {
+        return repository.findAllByMoradorRepublica_Aprovado(false);
+    }
 }

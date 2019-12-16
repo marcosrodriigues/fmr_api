@@ -2,6 +2,7 @@ package mr.fmr.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import mr.fmr.CaraterRepublica;
+import org.springframework.context.annotation.Lazy;
 
 import javax.persistence.*;
 import java.io.Serializable;
